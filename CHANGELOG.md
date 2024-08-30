@@ -1,6 +1,25 @@
 # Changelog
 
 
+## v1.9.6 (2023-10-31)
+
+* Fix mos_from_r function.
+
+  This better handles values exceeding the allowable input range [0, 100]
+
+* Explain direct installation.
+
+
+## v1.9.5 (2023-07-01)
+
+* Add fix for incorrect FPS values increasing computation time.
+
+
+## v1.9.4 (2023-04-26)
+
+* Update extractor.py.
+
+
 ## v1.9.3 (2023-02-28)
 
 * Support .ts files, fixes #33.
